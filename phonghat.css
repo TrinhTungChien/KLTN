@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+body{
+    font-size: 16px;
+    color: #040404;
+    -webkit-font-smoothing: antialiased;
+}
+ul#nav-menu{
+    display: flex;
+    list-style: none;
+    width: 80%;
+}
+ul#nav-menu li{
+    padding: 0px 0px;
+    margin: 20px;
+}
+ul#nav-menu a{
+    display: block;
+    padding: 5px 0px;
+    text-transform:  uppercase;
+    font-weight: bold;
+    position: relative;
+}
+ul#nav-menu a::after{
+    content: "";
+    height: 5px;
+    width: 0px;
+    background: tomato;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+ul#nav-menu a:hover::after{
+    width: 50%;
+    transform: translateX(100%);
+}
+div#backtop{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+}
+.block-banner{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    background: url(img/banner-phonghat.png);
+}
+.inner-banner{
+    position: absolute;
+    top: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.inner-banner h2{
+    font-size: 36px;
+    font-style: italic;
+    font-family: "Noto Serif";
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+.col-lg-6{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.inner{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+    flex-direction: column;
+}
+address{
+    display: block;
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.inner address{
+    padding-left: 2rem;
+}
+a{
+    color: red;
+}
+div#footer{
+    margin-bottom: 0px;
+}

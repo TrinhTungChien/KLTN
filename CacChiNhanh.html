@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Nhánh Lê Trọng Tấn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="ChiNhanh.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="head">
+        <div  class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4 ">
+                    <ul id="nav-menu">
+                        <li class="nav-item text-white">
+                            <h4 class="text-white h4"><a class="nav-link text-white" href="PhongHatTTC.html">PHÒNG HÁT</a></h4>
+                        </li>
+                        <li class="nav-item text-white">
+                            <h4 class="text-white h4"><a class="nav-link text-white" href="menumonan.html">MÓN ĂN</a></h4>
+                        </li>
+                        <li class="nav-item text-white">
+                            <h4 class="text-white h4"><a class="nav-link text-white" href="index.html">DỊCH VỤ</a></h4>
+                        </li>
+                        <li class="nav-item text-white">
+                            <h4 class="text-white h4"><a class="nav-link text-white" href="TuyenDung.html">TUYỂN DỤNG</a></h4>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <button style="width: 4%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <img src="img/logo.png" style="right: 0px; width: 3%;">
+                </nav>
+                
+        </div>
+      </div>
+      <h5 style="z-index: 3; color: white; font-size: 70px; position: fixed; top: 100px;">TTC LÊ TRỌNG TẤN</h5>
+      <p style="z-index: 3; color: whitesmoke;font-style: italic; font-size: 40px; position: fixed; top: 200px;">140 Lê Trọng Tấn, Phường Tây Thạnh, Tân Phú, TP.HCM</p>
+    <div class="box">
+        <span style="--i:1"><img src="img/box1-2.png" alt=""></span>
+        <span style="--i:2"><img src="img/box1-1.png" alt=""></span>
+        <span style="--i:3"><img src="img/box1-3.png" alt=""></span>
+        <span style="--i:4"><img src="img/box1-4.png" alt=""></span>
+        <span style="--i:5"><img src="img/box1-5.png" alt=""></span>
+    </div>
+    <script type="text/javascript">
+        let box =document.querySelector('.box');
+        window.onmousemove = function(e){
+            let X =e.clientX/3;
+            box.style.transform="perspective(1000px) rotateY(" + X + "deg)";
+        }
+    </script>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</html>

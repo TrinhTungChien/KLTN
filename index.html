@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KLTN</title>
+    <title>KLTN Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css"><script src="main.js" defer></script>
 </head>
 <body>
   <div class="head">
     <div  class="pos-f-t">
             <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4 ">
+              <div class="bg-dark p-4">
                 <ul id="nav-menu">
-                    <li class="nav-item text-white" class="col-3">
-                        <h4 class="text-white h4"><a class="nav-link text-white" href="index.html">PHÒNG HÁT</a></h4>
+                    <li class="nav-item text-white">
+                        <h4 class="text-white h4"><a class="nav-link text-white" href="PhongHatTTC.html">PHÒNG HÁT</a></h4>
                     </li>
-                    <li class="nav-item text-white" class="col-3">
-                        <h4 class="text-white h4"><a class="nav-link text-white" href="index.html">MENU</a></h4>
+                    <li class="nav-item text-white">
+                        <h4 class="text-white h4"><a class="nav-link text-white" href="menumonan.html">MÓN ĂN</a></h4>
                     </li>
                     <li class="nav-item text-white">
                         <h4 class="text-white h4"><a class="nav-link text-white" href="index.html">DỊCH VỤ</a></h4>
                     </li>
                     <li class="nav-item text-white">
-                        <h4 class="text-white h4"><a class="nav-link text-white" href="index.html">TUYỂN DỤNG</a></h4>
+                        <h4 class="text-white h4"><a class="nav-link text-white" href="TuyenDung.html">TUYỂN DỤNG</a></h4>
                     </li>
                 </ul>
               </div>
             </div>
             <nav class="navbar navbar-dark bg-dark">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button style="width: 4%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <img src="img/logo.png" style="right: 0px; width: 3%;">
@@ -46,13 +46,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/carosel11.jpg" class="d-block w-100" alt="">
+            <img src="img/Karaoke Night Twitter Post.jpg" class="w-100" alt="" height="600px">
           </div>
           <div class="carousel-item">
-            <img src="img/600height.jpg" class="d-block w-100" alt="">
+            <img src="img/carousel2.jpg" class="w-100" alt=""height="600px">
           </div>
           <div class="carousel-item">
-            <img src="img/carosel3.jpg" class="d-block w-100" alt="">
+            <img src="img/600height.jpg" class="w-100" alt=""height="600px">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -64,9 +64,28 @@
           <span class="sr-only">Next</span>
         </a>
   </div>
-  <div class="content">
-      
+  <div id="rowouter" class="row">
+    <div id="outer" class="outer col-6">
+      <img src="img/karaoke.jpg">
+    </div>
+    <div id="outertext" class="outer col-6">
+      <h2 style="font-size: 40px; text-transform: uppercase; padding: 50px 50px;">HỆ THỐNG TTC</h2>
+      <p style="padding: 5px 40px; text-transform: uppercase;">Trải nghiệm giải trí đỉnh cao, âm thanh chất lượng, không gian sang trọng, ẩm thực tuyệt hảo. Đến TTC - TỚI PHẢI CHƠI - CHƠI PHẢI TỚI .</p>
+      <a href="PhongHatTTC.html" class="btn btn-3" style="width: 40%; color: black;">XEM THÊM</a>
+    </div>
   </div>
+        <div id="menuindex">
+        <div id="menutext">
+          <h3 id="TD">THỰC ĐƠN</h3>
+          <P>Sức sáng tạo cũng như tâm huyết mang đến cho</P>
+          <p>khách hàng những giá trị ẩm thực tốt nhất</p>
+          <p>không chỉ đầu tư mạnh về chất lượng thực đơn</p>
+          <p>mà còn chú trọng trong tính thẩm mỹ</p>
+          <div class="block col-md-2">
+            <a href="menumonan.html" class="btn btn-3">XEM TẤT CẢ</a>
+          </div>
+        </div>
+      </div>
   <div id="footer" class="footer" style="background-color: rgb(42, 39, 39);">
         <div class="row">
             <div class="col-3" style="padding-top: 50px;">
@@ -90,11 +109,44 @@
             </div>
             <div class="col-5">
                 <h5 style="color:whitesmoke;">Google Map</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3919.057341470054!2d106.62883439999999!3d10.806920300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1697735250144!5m2!1svi!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.114690774096!2d106.628834!3d10.80692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBUaMawxqFuZyBUUC4gSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2sus!4v1698438160901!5m2!1svi!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </iframe>
             </div>
         </div>
+  </div>
+  <div id="backtop">
+    <i class="fa-solid fa-arrow-up fa-beat-fade"><img src="img/to-top.png"></i>
+  </div>
+        <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
     </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "150858358110803");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -104,7 +156,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          if($(this).scrollTop()){
+            $('#backtop').fadeIn()
+          }else{
+            $('#backtop').fadeOut()
+          }
+        });
+        $("#backtop").click(function(){
+          $('html,body').animate({scrollTop: 0},1000)
+        });
+      });
+    </script>
 </html>
